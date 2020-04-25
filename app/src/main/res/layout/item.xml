@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/andr" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="100dp" />
+</LinearLayout>
